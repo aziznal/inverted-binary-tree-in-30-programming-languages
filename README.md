@@ -33,5 +33,6 @@ The languages I aim to do are the following (in no particular order):
 26. [ ] Julia
 27. [ ] Racket
 28. [ ] Ada
-
+29. [ ] Ruby
+30. [ ] Coffeescript
 
