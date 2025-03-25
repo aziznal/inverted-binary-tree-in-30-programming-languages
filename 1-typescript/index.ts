@@ -7,19 +7,19 @@ export type Node = {
 export function getTreeTraversal(node: Node) {
   const traversal = [] as string[];
 
-  const print = (node: Node) => {
+  const traverseNode = (node: Node) => {
     if (node.left) {
-      print(node.left);
+      traverseNode(node.left);
     }
 
     traversal.push(node.content);
 
     if (node.right) {
-      print(node.right);
+      traverseNode(node.right);
     }
   };
 
-  print(node);
+  traverseNode(node);
 
   return traversal;
 }
