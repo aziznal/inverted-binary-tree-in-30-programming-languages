@@ -6,7 +6,7 @@ lanugages, inspired by a developer on youtube called tsoding ([here's](https://g
 The languages I aim to do are the following (in no particular order):
 
 1. [x] Typescript
-2. [ ] Rust
+2. [x] Rust
 3. [ ] C
 4. [ ] C++
 5. [ ] D

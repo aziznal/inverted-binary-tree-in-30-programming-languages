@@ -1,16 +1,12 @@
 # 1-typescript
 
-To install dependencies:
-
 ```bash
+# setup
 bun install
 ```
 
-To run:
-
 ```bash
-bun run index.ts
+# test
+bun test
 ```
-
-This project was created using `bun init` in bun v1.1.43. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 
