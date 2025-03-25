@@ -1,7 +1,7 @@
 # Readme
 
 On the night of the 25th of march, 2025, I challenged myself to explore a bunch of programming 
-lanugages, inspired by a developer on youtube called tsoding ([here's](https://github.com/tsoding/aoc-2020) his challenge implementation).
+languages, inspired by a developer on youtube called tsoding ([here's](https://github.com/tsoding/aoc-2020) his challenge implementation).
 
 The languages I aim to do are the following (in no particular order):
 
