@@ -1,0 +1,13 @@
+FROM ubuntu:22.04
+
+# Install required packages
+RUN apt-get update && apt-get install -y curl git bash unzip neovim
+
+# Install Bun
+RUN curl -fsSL https://bun.sh/install | bash
+
+# Set environment variables for Bun
+ENV BUN_INSTALL="/root/.bun"
+ENV PATH="$BUN_INSTALL/bin:$PATH"
+
+WORKDIR /app

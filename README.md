@@ -36,3 +36,20 @@ The languages I aim to do are the following (in no particular order):
 29. [ ] Ruby
 30. [ ] Coffeescript
 
+## Running Things with Docker Containers
+
+With 30 different programming languages comes 30 different potential headaches to set each up. To try
+and deal with that, I use docker to set up the envs and work with them there.
+
+Each programming language has a `dockerfile` setting up a minimal environment / toolchain for that language.
+
+The following commands are helpful:
+
+```bash
+# builds an image
+docker buildx build --load -t container-name
+
+# runs shell inside a built image and mounts the current folder to it under /app
+docker run -it -v "$(pwd)":/app container-name
+```
+
