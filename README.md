@@ -18,7 +18,7 @@ The languages I aim to do are the following (in no particular order):
 11. [ ] Java
 12. [ ] Kotlin
 13. [ ] Haskell
-14. [ ] Python
+14. [x] Python
 15. [ ] Php
 16. [ ] Perl
 17. [ ] Nim
@@ -50,6 +50,6 @@ The following commands are helpful:
 docker buildx build --load -t container-name .
 
 # runs shell inside a built image and mounts the current folder to it under /app
-docker run -it -v "$(pwd)":/app container-name
+docker run -it -v "$(pwd)":/app container-name /bin/bash
 ```
 
