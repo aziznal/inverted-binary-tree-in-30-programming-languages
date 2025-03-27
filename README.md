@@ -7,7 +7,7 @@ The languages I aim to do are the following (in no particular order):
 
 1. [x] Typescript
 2. [x] Rust
-3. [ ] C
+3. [x] C
 4. [ ] C++
 5. [ ] D
 6. [ ] Go
@@ -47,7 +47,7 @@ The following commands are helpful:
 
 ```bash
 # builds an image
-docker buildx build --load -t container-name
+docker buildx build --load -t container-name .
 
 # runs shell inside a built image and mounts the current folder to it under /app
 docker run -it -v "$(pwd)":/app container-name
