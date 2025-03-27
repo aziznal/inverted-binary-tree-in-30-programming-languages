@@ -8,7 +8,7 @@ The languages I aim to do are the following (in no particular order):
 1. [x] Typescript
 2. [x] Rust
 3. [x] C
-4. [ ] C++
+4. [x] C++
 5. [ ] D
 6. [ ] Go
 7. [ ] C#
