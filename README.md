@@ -10,7 +10,7 @@ The languages I aim to do are the following (in no particular order):
 3. [x] C
 4. [x] C++
 5. [ ] D
-6. [ ] Go
+6. [x] Go
 7. [ ] C#
 8. [ ] Lisp
 9. [ ] Lua
