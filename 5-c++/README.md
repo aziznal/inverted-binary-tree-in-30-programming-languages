@@ -2,5 +2,5 @@
 
 ```bash
 # test
-g++ main.py && ./a.out
+g++ main.cpp && ./a.out
 ```
