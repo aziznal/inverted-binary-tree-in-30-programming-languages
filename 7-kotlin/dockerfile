@@ -1,0 +1,22 @@
+# Use a base image with JDK
+FROM openjdk:17-jdk-alpine
+
+# Set Kotlin version
+ARG KOTLIN_VERSION=1.9.23
+
+# Install Kotlin compiler and bash
+RUN apk add --no-cache wget unzip bash && \
+    wget https://github.com/JetBrains/kotlin/releases/download/v${KOTLIN_VERSION}/kotlin-compiler-${KOTLIN_VERSION}.zip && \
+    unzip kotlin-compiler-${KOTLIN_VERSION}.zip -d /opt && \
+    rm kotlin-compiler-${KOTLIN_VERSION}.zip && \
+    apk del wget unzip
+
+# Add Kotlin compiler to PATH
+ENV PATH=$PATH:/opt/kotlinc/bin
+
+# Set working directory
+WORKDIR /app
+
+# Start bash shell
+CMD ["bash"]
+
