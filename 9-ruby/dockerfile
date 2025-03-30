@@ -1,0 +1,11 @@
+# Use the official Ruby image
+FROM ruby:alpine
+
+# Install bash
+RUN apk add --no-cache bash
+
+# Set the working directory
+WORKDIR /app
+
+# Start bash shell
+CMD ["bash"]
