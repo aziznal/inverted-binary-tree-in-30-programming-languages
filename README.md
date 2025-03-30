@@ -22,7 +22,7 @@ The languages I aim to do are the following (in no particular order):
 15. [ ] Php
 16. [ ] Perl
 17. [ ] Nim
-18. [ ] Zig
+18. [x] Zig
 19. [ ] Scala
 20. [ ] Groovy
 21. [ ] Dart
