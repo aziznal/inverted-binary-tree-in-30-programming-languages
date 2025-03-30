@@ -1,0 +1,11 @@
+# Use a base image with JDK
+FROM openjdk:17-jdk-alpine
+
+RUN apk add --no-cache bash
+
+# Set working directory
+WORKDIR /app
+
+# Start bash shell
+CMD ["bash"]
+

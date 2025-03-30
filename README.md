@@ -15,7 +15,7 @@ The languages I aim to do are the following (in no particular order):
 8. [ ] Lisp
 9. [ ] Lua
 10. [ ] Objective C
-11. [ ] Java
+11. [x] Java
 12. [x] Kotlin
 13. [ ] Haskell
 14. [x] Python
