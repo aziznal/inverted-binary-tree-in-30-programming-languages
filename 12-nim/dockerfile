@@ -1,0 +1,14 @@
+# Use a standard Alpine base image for AMD64
+FROM --platform=linux/amd64 alpine:latest
+
+# Install prerequisites and Nim
+# Check https://pkgs.alpinelinux.org/packages?name=nim for available versions
+RUN apk add --no-cache bash build-base gcc pcre-dev openssl-dev && \
+    apk add --no-cache nim --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
+
+# Set the working directory
+WORKDIR /app
+
+# Start bash shell
+CMD ["bash"]
+

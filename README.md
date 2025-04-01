@@ -29,7 +29,7 @@ The languages I aim to do are the following (in no particular order):
 22. [ ] Assembly
 23. [ ] Ocaml
 24. [ ] Pascal
-25. [ ] Nim
+25. [x] Nim
 26. [ ] Julia
 27. [ ] Racket
 28. [ ] Ada
