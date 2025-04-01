@@ -1,6 +1,6 @@
 # Readme
 
-On the night of the 25th of march, 2025, I challenged myself to explore a bunch of programming 
+On the night of the 25th of march, 2025, I challenged myself to explore a bunch of programming
 languages, inspired by a developer on youtube called tsoding ([here's](https://github.com/tsoding/aoc-2020) his challenge implementation).
 
 The languages I aim to do are the following (in no particular order):
@@ -21,7 +21,7 @@ The languages I aim to do are the following (in no particular order):
 14. [x] Python
 15. [ ] Php
 16. [ ] Perl
-17. [ ] Nim
+17. [x] Nim
 18. [x] Zig
 19. [ ] Scala
 20. [ ] Groovy
@@ -29,12 +29,12 @@ The languages I aim to do are the following (in no particular order):
 22. [ ] Assembly
 23. [ ] Ocaml
 24. [ ] Pascal
-25. [x] Nim
-26. [ ] Julia
-27. [ ] Racket
-28. [ ] Ada
-29. [x] Ruby
-30. [ ] Coffeescript
+25. [ ] Julia
+26. [ ] Racket
+27. [ ] Ada
+28. [x] Ruby
+29. [ ] Coffeescript
+30. [ ] Elixir
 
 ## Running Things with Docker Containers
 
@@ -52,4 +52,3 @@ docker buildx build --load -t container-name .
 # runs shell inside a built image and mounts the current folder to it under /app
 docker run -it -v "$(pwd)":/app container-name /bin/bash
 ```
-
