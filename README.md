@@ -19,7 +19,7 @@ The languages I aim to do are the following (in no particular order):
 12. [x] Kotlin
 13. [x] Haskell
 14. [x] Python
-15. [ ] Php
+15. [x] Php
 16. [ ] Perl
 17. [x] Nim
 18. [x] Zig
