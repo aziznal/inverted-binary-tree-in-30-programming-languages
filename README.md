@@ -17,7 +17,7 @@ The languages I aim to do are the following (in no particular order):
 10. [ ] Objective C
 11. [x] Java
 12. [x] Kotlin
-13. [ ] Haskell
+13. [x] Haskell
 14. [x] Python
 15. [ ] Php
 16. [ ] Perl

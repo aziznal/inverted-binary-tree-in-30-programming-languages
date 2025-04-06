@@ -1,0 +1,6 @@
+FROM haskell:latest
+
+WORKDIR /app
+
+CMD ["bash"]
+
