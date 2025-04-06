@@ -12,7 +12,7 @@ The languages I aim to do are the following (in no particular order):
 5. [x] D
 6. [x] Go
 7. [ ] C#
-8. [ ] Lisp
+8. [x] Lisp
 9. [x] Lua
 10. [ ] Objective C
 11. [x] Java
