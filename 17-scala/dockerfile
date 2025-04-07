@@ -1,0 +1,6 @@
+FROM sbtscala/scala-sbt:eclipse-temurin-17.0.14_7_1.10.11_3.6.4
+
+WORKDIR /app
+
+CMD ["bash"]
+
