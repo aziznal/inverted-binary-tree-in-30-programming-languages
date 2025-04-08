@@ -1,0 +1,6 @@
+FROM dart:3
+
+WORKDIR /app
+
+CMD ["bash"]
+

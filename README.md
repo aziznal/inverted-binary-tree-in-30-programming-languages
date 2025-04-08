@@ -25,7 +25,7 @@ The languages I aim to do are the following (in no particular order):
 18. [x] Zig
 19. [x] Scala
 20. [ ] Groovy
-21. [ ] Dart
+21. [x] Dart
 22. [ ] Assembly
 23. [ ] Ocaml
 24. [ ] Pascal
