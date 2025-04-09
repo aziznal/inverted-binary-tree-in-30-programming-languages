@@ -1,0 +1,10 @@
+FROM ocaml/opam:alpine
+
+RUN sudo apk add --no-cache bash
+
+WORKDIR /home/opam/app 
+
+USER opam
+
+CMD ["bash"]
+
