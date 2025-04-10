@@ -1,0 +1,9 @@
+FROM node:alpine
+
+RUN npm install -g coffeescript && \
+    apk add --no-cache bash
+
+WORKDIR /app
+
+CMD ["bash"]
+

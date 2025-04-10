@@ -33,7 +33,7 @@ The languages I aim to do are the following (in no particular order):
 26. [ ] Racket
 27. [ ] Ada
 28. [x] Ruby
-29. [ ] Coffeescript
+29. [x] Coffeescript
 30. [ ] Elixir
 
 ## Running Things with Docker Containers
