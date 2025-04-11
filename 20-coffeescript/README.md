@@ -1,7 +1,7 @@
 # 20-coffeescript
 
 ```bash
-coffee 
+coffee main.ml
 ```
 
 ### Links
