@@ -1,0 +1,11 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine 
+
+RUN apk add --no-cache bash
+
+# for running csx files
+RUN curl -s https://raw.githubusercontent.com/dotnet-script/dotnet-script/master/install/install.sh | bash
+
+WORKDIR /app
+
+CMD ["bash"]
+

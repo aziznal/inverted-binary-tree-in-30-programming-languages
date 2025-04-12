@@ -11,7 +11,7 @@ The languages I aim to do are the following (in no particular order):
 4. [x] C++
 5. [x] D
 6. [x] Go
-7. [ ] C#
+7. [x] C#
 8. [x] Lisp
 9. [x] Lua
 10. [ ] Objective C
