@@ -14,31 +14,30 @@ The languages I aim to do are the following (in no particular order):
 7. [x] C#
 8. [x] Lisp
 9. [x] Lua
-10. [ ] Objective C
-11. [x] Java
-12. [x] Kotlin
-13. [x] Haskell
-14. [x] Python
-15. [x] Php
-16. [ ] Perl
-17. [x] Nim
-18. [x] Zig
-19. [x] Scala
-20. [ ] Groovy
-21. [x] Dart
-22. [ ] Assembly
-23. [x] Ocaml
-24. [x] Pascal
-25. [ ] Julia
-26. [ ] Racket
-27. [ ] Ada
-28. [x] Ruby
-29. [x] Coffeescript
-30. [ ] Elixir
-31. [ ] Clojure
-32. [ ] Elm
-33. [ ] Gleam
-34. [ ] Swift
+10. [x] Java
+11. [x] Kotlin
+12. [x] Haskell
+13. [x] Python
+14. [x] Php
+15. [ ] Perl
+16. [x] Nim
+17. [x] Zig
+18. [x] Scala
+19. [ ] Groovy
+20. [x] Dart
+21. [ ] Assembly
+22. [x] Ocaml
+23. [x] Pascal
+24. [ ] Julia
+25. [ ] Racket
+26. [ ] Ada
+27. [x] Ruby
+28. [x] Coffeescript
+29. [ ] Elixir
+30. [ ] Clojure
+31. [ ] Elm
+32. [ ] Gleam
+33. [ ] Swift
 
 ## Running Things with Docker Containers
 
