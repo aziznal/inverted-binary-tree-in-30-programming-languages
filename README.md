@@ -38,6 +38,7 @@ The languages I aim to do are the following (in no particular order):
 31. [ ] Clojure
 32. [ ] Elm
 33. [ ] Gleam
+34. [ ] Swift
 
 ## Running Things with Docker Containers
 
