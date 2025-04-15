@@ -28,7 +28,7 @@ The languages I aim to do are the following (in no particular order):
 21. [ ] Assembly
 22. [x] Ocaml
 23. [x] Pascal
-24. [ ] Julia
+24. [x] Julia
 25. [ ] Racket
 26. [ ] Ada
 27. [x] Ruby

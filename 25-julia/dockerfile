@@ -1,0 +1,6 @@
+FROM julia:latest
+
+WORKDIR /app
+
+CMD ["bash"]
+
