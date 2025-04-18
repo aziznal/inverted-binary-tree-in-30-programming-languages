@@ -29,7 +29,7 @@ The languages I aim to do are the following (in no particular order):
 22. [x] Ocaml
 23. [x] Pascal
 24. [x] Julia
-25. [ ] Racket
+25. [x] Racket
 26. [ ] Ada
 27. [x] Ruby
 28. [x] Coffeescript

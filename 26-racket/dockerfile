@@ -1,0 +1,6 @@
+FROM racket/racket:latest
+
+WORKDIR /app
+
+CMD ["bash"]
+
