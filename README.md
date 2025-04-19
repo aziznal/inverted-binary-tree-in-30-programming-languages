@@ -30,7 +30,7 @@ The languages I aim to do are the following (in no particular order):
 23. [x] Pascal
 24. [x] Julia
 25. [x] Racket
-26. [ ] Ada
+26. [x] Ada
 27. [x] Ruby
 28. [x] Coffeescript
 29. [ ] Elixir
@@ -38,6 +38,8 @@ The languages I aim to do are the following (in no particular order):
 31. [ ] Elm
 32. [ ] Gleam
 33. [ ] Swift
+34. [ ] Prolog
+35. [ ] Erlang
 
 ## Running Things with Docker Containers
 

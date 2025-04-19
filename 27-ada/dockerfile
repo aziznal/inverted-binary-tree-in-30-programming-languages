@@ -1,0 +1,23 @@
+FROM ubuntu:latest
+
+# Install dependencies: GNAT, GPRbuild, Git, wget, unzip, and bash
+RUN apt-get update && \
+    apt-get install -y gnat gprbuild git wget unzip bash && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set Alire version (check GitHub releases for the latest)
+ARG ALIRE_VERSION=2.0.0
+ARG TARGET_ARCH=x86_64
+
+# Download Alire binary, extract 'alr' directly to /usr/local/bin, make executable, and clean up
+RUN wget https://github.com/alire-project/alire/releases/download/v${ALIRE_VERSION}/alr-${ALIRE_VERSION}-bin-${TARGET_ARCH}-linux.zip -O alire.zip && \
+    # Extract only the 'alr' file, junking paths, directly into /usr/local/bin
+    # Use wildcard '*' in case the top-level directory name varies slightly
+    unzip -j alire.zip '*/alr' -d /usr/local/bin/ && \
+    chmod +x /usr/local/bin/alr && \
+    rm -f alire.zip
+
+WORKDIR /app
+
+CMD ["bash"]
+
