@@ -33,7 +33,7 @@ The languages I aim to do are the following (in no particular order):
 26. [x] Ada
 27. [x] Ruby
 28. [x] Coffeescript
-29. [ ] Elixir
+29. [x] Elixir
 30. [ ] Clojure
 31. [ ] Elm
 32. [ ] Gleam
