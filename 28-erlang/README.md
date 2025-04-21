@@ -1,4 +1,4 @@
-# 27-erlang
+# 28-erlang
 
 ```bash
 escript main.erl
