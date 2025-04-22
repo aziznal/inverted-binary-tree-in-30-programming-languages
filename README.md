@@ -40,6 +40,7 @@ The languages I aim to do are the following (in no particular order):
 33. [ ] Swift
 34. [ ] Prolog
 35. [x] Erlang
+36. [ ] F#
 
 ## Running Things with Docker Containers
 
