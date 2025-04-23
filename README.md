@@ -34,7 +34,7 @@ The languages I aim to do are the following (in no particular order):
 27. [x] Ruby
 28. [x] Coffeescript
 29. [x] Elixir
-30. [ ] Clojure
+30. [x] Clojure
 31. [ ] Elm
 32. [ ] Gleam
 33. [ ] Swift

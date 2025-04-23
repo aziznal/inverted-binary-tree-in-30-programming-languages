@@ -1,0 +1,13 @@
+FROM openjdk:17-jdk-alpine 
+
+RUN apk add --no-cache bash wget ca-certificates
+
+RUN wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O /usr/local/bin/lein
+
+RUN chmod +x /usr/local/bin/lein && \
+    lein version 
+
+WORKDIR /app
+
+CMD ["bash"]
+
