@@ -1,4 +1,4 @@
-# 29-elixir
+# 30-clojure
 
 ### Run
 ```bash
