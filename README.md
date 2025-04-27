@@ -25,22 +25,22 @@ The languages I aim to do are the following (in no particular order):
 18. [x] Scala
 19. [x] Groovy
 20. [x] Dart
-21. [ ] Assembly
-22. [x] Ocaml
-23. [x] Pascal
-24. [x] Julia
-25. [x] Racket
-26. [x] Ada
-27. [x] Ruby
-28. [x] Coffeescript
-29. [x] Elixir
+21. [x] Ocaml
+22. [x] Pascal
+23. [x] Julia
+24. [x] Racket
+25. [x] Ada
+26. [x] Ruby
+27. [x] Coffeescript
+28. [x] Elixir
+29. [x] Erlang
 30. [x] Clojure
-31. [ ] Elm
-32. [ ] Gleam
-33. [ ] Swift
-34. [ ] Prolog
-35. [x] Erlang
-36. [ ] F#
+31. [ ] Gleam
+32. [ ] Swift
+33. [ ] Prolog
+34. [ ] F#
+35. [ ] Elm
+36. [ ] Assembly
 
 ## Running Things with Docker Containers
 
