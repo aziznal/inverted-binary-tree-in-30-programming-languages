@@ -38,7 +38,7 @@ The languages I aim to do are the following (in no particular order):
 31. [ ] Gleam
 32. [ ] Swift
 33. [ ] Prolog
-34. [ ] F#
+34. [x] F#
 35. [ ] Elm
 36. [ ] Assembly
 
